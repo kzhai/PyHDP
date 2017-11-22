@@ -21,7 +21,7 @@ Assume the PyHDP package is downloaded under directory ```$PROJECT_SPACE/src/```
 
 To prepare the example dataset,
 
-	tar zxvf pnas-abstract.tar.gz
+	tar zxvf de-news.tar.gz
 
 To launch PyHDP, first redirect to the directory of PyHDP source code,
 
@@ -29,7 +29,7 @@ To launch PyHDP, first redirect to the directory of PyHDP source code,
 
 and run the following command on example dataset,
 
-	python -m launch_train --input_directory=./pnas-abstract --output_directory=./ --training_iterations=50
+	python -m launch_train --input_directory=./de-news --output_directory=./ --training_iterations=50
 
 The generic argument to run PyHDP is
 
